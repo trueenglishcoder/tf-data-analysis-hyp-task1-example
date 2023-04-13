@@ -11,4 +11,4 @@ def solution(x_success: int,
              y_cnt: int) -> bool:
   
     _, pval = proportions_ztest([x_success, y_success], [x_cnt, y_cnt], alternative="larger")
-    return pval < 0.003
+    return pval < 0.03
